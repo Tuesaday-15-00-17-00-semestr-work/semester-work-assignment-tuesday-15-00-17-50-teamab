@@ -42,6 +42,7 @@ public abstract class User {
 
     public JFrame frame(String[] data, Database database, User user) {
         JFrame frame = new JFrame();
+        frame.setResizable(false);
         frame.setSize(400, 350); //Tlačidlá
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setLocationRelativeTo(null);

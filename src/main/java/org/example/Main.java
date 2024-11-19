@@ -16,6 +16,7 @@ public class Main {
         database = new Database();
 
         JFrame frame = frame(500, 300); // Tlačidlá
+        frame.setResizable(false);
 
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(3, 2, 15, 15));
@@ -85,6 +86,7 @@ public class Main {
     private static void newuser() {
 
         JFrame frame = frame(500, 400);
+        frame.setResizable(false);
 
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(5, 2, 15, 15));
@@ -188,6 +190,7 @@ public class Main {
         frame.setLayout(new BorderLayout());
         frame.setBackground(Color.white);
         frame.getContentPane().setBackground(Color.white);
+        frame.setResizable(false);
         return frame;
     }
 
