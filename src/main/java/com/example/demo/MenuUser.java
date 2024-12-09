@@ -27,8 +27,8 @@ public class MenuUser extends Application {
         Button findAllBooksButton = new Button("View Books");
         grid.add(findAllBooksButton, 1, 0);
 
-        Button deleteBookButton = new Button("Delete Book");
-        grid.add(deleteBookButton, 0, 1);
+       // Button deleteBookButton = new Button("Delete Book");
+      //  grid.add(deleteBookButton, 0, 1);
 
         Button exitButton = new Button("Exit");
         grid.add(exitButton, 1, 1);
@@ -44,10 +44,10 @@ public class MenuUser extends Application {
             openViewBookWindow();
         });
 
-        deleteBookButton.setOnAction(event -> {
-            primaryStage.close();
-            openDeleteBookWindow();
-        });
+//        deleteBookButton.setOnAction(event -> {
+//            primaryStage.close();
+//            openDeleteBookWindow();
+//        });
 
         exitButton.setOnAction(event -> {
             primaryStage.close();

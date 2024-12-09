@@ -54,7 +54,7 @@ A Spring Boot application providing a RESTful API for managing a library system.
 
 The application uses H2 as the database.
 ### Schema
-The database schema is auto-generated and includes tables for:
+The database schema includes tables for:
 - Users
 - Books
 
