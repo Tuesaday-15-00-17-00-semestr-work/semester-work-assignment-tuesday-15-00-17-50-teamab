@@ -31,8 +31,6 @@ public class UserController {
         return users.get();
     }
 
-
-    //@ResponseStatus(HttpStatus.CREATED)
     @PostMapping("")
     void addUser(@Valid @RequestBody Users users) {
         userRepository.addUser(users);
