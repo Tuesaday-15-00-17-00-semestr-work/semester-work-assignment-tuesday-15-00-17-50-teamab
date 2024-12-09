@@ -1,0 +1,36 @@
+{
+  "books":[
+    {
+      "book_id": 1,
+      "title": "Title1" ,
+      "author": "Author1",
+      "isbn": "Isbn1",
+      "available_copies": 1
+    },
+
+    {
+      "book_id": 2,
+      "title": "Title2" ,
+      "author": "Author2",
+      "isbn": "Isbn2",
+      "available_copies": 2
+    },
+
+    {
+      "book_id": 3,
+      "title": "Title3" ,
+      "author": "Author3",
+      "isbn": "Isbn3",
+      "available_copies": 3
+    },
+
+    {
+      "book_id": 4,
+      "title": "Title4" ,
+      "author": "Author4",
+      "isbn": "Isbn4",
+      "available_copies": 4
+    }
+  ]
+
+}

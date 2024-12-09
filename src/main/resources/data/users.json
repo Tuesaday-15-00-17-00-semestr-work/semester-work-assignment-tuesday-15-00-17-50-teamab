@@ -1,0 +1,35 @@
+{
+  "users_":[
+    {
+      "userId": 1,
+      "username": "admin" ,
+      "password": "admin",
+      "roleId": 1,
+      "email": "email1@email.com"
+    },
+
+    {
+      "userId": 2,
+      "username": "user" ,
+      "password": "user",
+      "roleId": 2,
+      "email": "email2@email.com"
+    },
+
+    {
+      "userId": 3,
+      "username": "username3" ,
+      "password": "password3",
+      "roleId": 1,
+      "email": "email3@email.com"
+    },
+
+    {
+      "userId": 4,
+      "username": "username4" ,
+      "password": "password4",
+      "roleId": 2,
+      "email": "email4@email.com"
+    }
+  ]
+}
